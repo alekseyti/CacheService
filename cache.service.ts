@@ -108,3 +108,9 @@ export class CacheService {
     }
   }
 }
+
+//other component     
+//this.variable = this.cacheService.get(id, this.service.get(id))
+//this.cacheService.get(id, this.service.get(id)).pipe(takeUntil(this.destroy)).subscribe(r => { })
+                           
+
